@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_marginTop="10dp"
-                android:text="Movie List"
+                android:text="Romantic Movie"
                 android:layout_marginLeft="10dp"
                 android:textColor="#000000"
                 android:textSize="25sp" />
@@ -111,7 +111,7 @@
                             android:layout_height="30dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="5dp"
-                            android:text="Movie Title"
+                            android:text="Ngayon Kaya"
                             android:textColor="@color/black"
                             android:textSize="20sp" />
 
