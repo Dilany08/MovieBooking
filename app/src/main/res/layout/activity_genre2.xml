@@ -142,7 +142,7 @@
                             android:textSize="20sp" />
 
                         <Button
-                            android:id="@+id/btn1"
+                            android:id="@+id/book1"
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
@@ -207,7 +207,7 @@
                             android:textSize="20sp" />
 
                         <Button
-                            android:id="@+id/btn2"
+                            android:id="@+id/book2"
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
@@ -271,7 +271,7 @@
                             android:textSize="20sp" />
 
                         <Button
-                            android:id="@+id/btn3"
+                            android:id="@+id/book3"
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
@@ -337,7 +337,7 @@
                             android:textSize="20sp" />
 
                         <Button
-                            android:id="@+id/btn4"
+                            android:id="@+id/book4"
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
@@ -401,7 +401,7 @@
                             android:textSize="20sp" />
 
                         <Button
-                            android:id="@+id/btn5"
+                            android:id="@+id/book5"
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
