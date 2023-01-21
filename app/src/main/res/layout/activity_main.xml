@@ -24,7 +24,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/custom"
-            android:backgroundTint="#BFB1AEAE"
+            android:backgroundTint="#EDB1AEAE"
             android:orientation="vertical"
             android:padding="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
