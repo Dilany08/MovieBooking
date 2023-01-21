@@ -40,6 +40,7 @@
                 android:background="@drawable/custom"
                 android:text="Choose Genre:"
                 android:textColor="#000000"
+                android:backgroundTint="#0371C6"
                 android:textSize="25sp" />
 
             <LinearLayout
@@ -66,13 +67,14 @@
                     android:textColor="@color/black" />
                 <ImageView
                     android:id="@+id/btn1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/bluetriangle"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/arrow"
                     android:layout_marginTop="40dp"
                     android:layout_marginBottom="30dp"
-                    android:layout_marginLeft="38dp"
-                    android:layout_marginRight="5dp"/>
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="5dp"
+                    app:tint="#0E7BCF" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="360dp"
@@ -98,13 +100,14 @@
                     android:textColor="@color/black" />
                 <ImageView
                     android:id="@+id/btn2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/bluetriangle"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/arrow"
                     android:layout_marginTop="40dp"
                     android:layout_marginBottom="30dp"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginRight="5dp"/>
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginRight="5dp"
+                    app:tint="#0E7BCF"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="360dp"
@@ -130,13 +133,13 @@
                     android:textColor="@color/black" />
                 <ImageView
                     android:id="@+id/btn3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/bluetriangle"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/arrow"
                     android:layout_marginTop="40dp"
                     android:layout_marginBottom="30dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="5dp"/>
+                    android:layout_marginRight="5dp"
+                    app:tint="#0E7BCF"/>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

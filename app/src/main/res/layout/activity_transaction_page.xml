@@ -33,6 +33,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/layout1">
 
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom"
+            android:backgroundTint="#0371C6">
+
         <ImageView
             android:id="@+id/btnBack"
             android:layout_width="55dp"
@@ -44,6 +50,17 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.007"
             app:srcCompat="@drawable/back" />
+
+            <TextView
+                android:id="@+id/trasact"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Transaction Page"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
