@@ -42,27 +42,33 @@
                 android:textColor="#000000"
                 android:backgroundTint="#0371C6"
                 android:textSize="25sp" />
-
+        <!--Genre(Action)-->
             <LinearLayout
                 android:layout_width="360dp"
-                android:layout_height="150dp"
-                android:orientation="horizontal">
+                android:layout_height="160dp"
+                android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/action"
-                    android:layout_width="100dp"
-                    android:layout_height="120dp"
+                    android:layout_width="330dp"
+                    android:layout_height="119dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="8dp"
+                    android:layout_gravity="center"
                     android:src="@drawable/custom" />
-
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="85dp"
+                    android:orientation="horizontal">
                 <TextView
                     android:id="@+id/actMovie"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="30dp"
                     android:text="Action Movie"
-                    android:layout_marginTop="60dp"
+                    android:layout_marginTop="30dp"
                     android:layout_marginBottom="45dp"
+                    android:layout_marginLeft="30dp"
                     android:textSize="25sp"
                     android:textColor="@color/black" />
                 <ImageView
@@ -70,32 +76,39 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:src="@drawable/arrow"
-                    android:layout_marginTop="40dp"
                     android:layout_marginBottom="30dp"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="30dp"
                     android:layout_marginRight="5dp"
                     app:tint="#0E7BCF" />
             </LinearLayout>
+
+            <!--Genre(Romantic)-->
             <LinearLayout
                 android:layout_width="360dp"
-                android:layout_height="150dp"
-                android:orientation="horizontal">
+                android:layout_height="160dp"
+                android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/horror"
-                    android:layout_width="100dp"
-                    android:layout_height="120dp"
+                    android:id="@+id/romantic"
+                    android:layout_width="330dp"
+                    android:layout_height="119dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="8dp"
+                    android:layout_gravity="center"
                     android:src="@drawable/custom" />
-
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="85dp"
+                android:orientation="horizontal">
                 <TextView
-                    android:id="@+id/horMovie"
+                    android:id="@+id/romMovie"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="Horror Movie"
-                    android:layout_marginTop="60dp"
+                    android:layout_height="30dp"
+                    android:text="Romantic Movie"
+                    android:layout_marginTop="30dp"
                     android:layout_marginBottom="45dp"
+                    android:layout_marginLeft="30dp"
                     android:textSize="25sp"
                     android:textColor="@color/black" />
                 <ImageView
@@ -103,32 +116,38 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:src="@drawable/arrow"
-                    android:layout_marginTop="40dp"
                     android:layout_marginBottom="30dp"
-                    android:layout_marginLeft="36dp"
+                    android:layout_marginLeft="30dp"
                     android:layout_marginRight="5dp"
-                    app:tint="#0E7BCF"/>
+                    app:tint="#0E7BCF" />
             </LinearLayout>
+            <!--Genre(Horror)-->
             <LinearLayout
                 android:layout_width="360dp"
-                android:layout_height="150dp"
-                android:orientation="horizontal">
+                android:layout_height="160dp"
+                android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/romantic"
-                    android:layout_width="100dp"
-                    android:layout_height="120dp"
+                    android:id="@+id/horror"
+                    android:layout_width="330dp"
+                    android:layout_height="119dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="8dp"
+                    android:layout_gravity="center"
                     android:src="@drawable/custom" />
-
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="85dp"
+                android:orientation="horizontal">
                 <TextView
-                    android:id="@+id/romMovie"
+                    android:id="@+id/horMovie"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="Romantic Movie"
-                    android:layout_marginTop="60dp"
+                    android:layout_height="30dp"
+                    android:text="Horror Movie"
+                    android:layout_marginTop="30dp"
                     android:layout_marginBottom="45dp"
+                    android:layout_marginLeft="30dp"
                     android:textSize="25sp"
                     android:textColor="@color/black" />
                 <ImageView
@@ -136,10 +155,10 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:src="@drawable/arrow"
-                    android:layout_marginTop="40dp"
                     android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="30dp"
                     android:layout_marginRight="5dp"
-                    app:tint="#0E7BCF"/>
+                    app:tint="#0E7BCF" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

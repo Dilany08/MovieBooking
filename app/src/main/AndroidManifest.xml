@@ -27,7 +27,7 @@
             android:name=".BookingPage"
             android:exported="false" />
         <activity
-            android:name=".MovieList"
+            android:name=".genre1"
             android:exported="false" />
         <activity
             android:name=".GenrePage"

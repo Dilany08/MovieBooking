@@ -8,12 +8,12 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-public class genre3 extends AppCompatActivity {
+public class genre1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_genre3);
+        setContentView(R.layout.activity_genre1);
 
         ImageView back = findViewById(R.id.btnBack);
 
@@ -23,8 +23,8 @@ public class genre3 extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(genre3.this, GenrePage.class);
-                Toast.makeText(genre3.this, "Returning...", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(genre1.this, GenrePage.class);
+                Toast.makeText(genre1.this, "Returning...", Toast.LENGTH_SHORT).show();
 
                 startActivity(i);
             }

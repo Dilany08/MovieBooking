@@ -20,10 +20,29 @@ public class GenrePage extends AppCompatActivity {
         btn2 = findViewById(R.id.btn2);
         btn3 = findViewById(R.id.btn3);
 
+        //btn that will proceed to Action Movie list
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(GenrePage.this,MovieList.class);
+                Intent i = new Intent(GenrePage.this, genre1.class);
+                startActivity(i);
+            }
+        });
+
+        //btn that will proceed to Romantic Movie List
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(GenrePage.this, genre2.class);
+                startActivity(i);
+            }
+        });
+
+        //btn that will proceed to Horror Movie List
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(GenrePage.this, genre3.class);
                 startActivity(i);
             }
         });
