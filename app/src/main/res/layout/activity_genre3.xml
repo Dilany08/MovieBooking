@@ -490,7 +490,7 @@
                             android:textSize="20sp" />
 
                         <Button
-                            android:id="@+id/btn1"
+                            android:id="@+id/book6"
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
