@@ -111,16 +111,18 @@
                         android:layout_height="30dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="5dp"
-                        android:text="Movie Title"
+                        android:text="AVATAR:THE WAY OF WATER"
                         android:textColor="@color/black"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Description"
+                        android:text="Runtime: 3 hrs, 12 mins\n
+                            Description: Once a familiar threat returns to finish what was previously
+                            started, Jake must work with Neytiri and the army of the Na'vi race to protect their planet."
                         android:textColor="@color/black"
-                        android:textSize="15sp" />
+                        android:textSize="10sp" />
 
                 </LinearLayout>
 
@@ -176,16 +178,18 @@
                         android:layout_height="30dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="5dp"
-                        android:text="Movie Title"
+                        android:text="PLANE"
                         android:textColor="@color/black"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Description"
+                        android:text="Runtime: 1 hr, 48 mins \n
+                            \nDescription: A pilot finds himself caught in a war zone after he's
+                            forced to land his commercial aircraft during a terrible storm."
                         android:textColor="@color/black"
-                        android:textSize="15sp" />
+                        android:textSize="10sp" />
 
                 </LinearLayout>
 
@@ -240,16 +244,18 @@
                         android:layout_height="30dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="5dp"
-                        android:text="Movie Title"
+                        android:text="Fantastic Beasts: \nThe Secrets of Dumbledore (2022)"
                         android:textColor="@color/black"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Description"
+                        android:text="Runtime: 2 hrs, 23 mins \n
+                           \n Description: Professor Albus Dumbledore must assist Newt Scamander and his partners
+                            as Grindelwald begins to lead an army to eliminate all Muggles."
                         android:textColor="@color/black"
-                        android:textSize="15sp" />
+                        android:textSize="10sp" />
 
                 </LinearLayout>
 
@@ -306,16 +312,18 @@
                         android:layout_height="30dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="5dp"
-                        android:text="Movie Title"
+                        android:text="Morbius (2022)"
                         android:textColor="@color/black"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="137dp"
                         android:layout_height="match_parent"
-                        android:text="Description"
+                        android:text="Runtime: 1 hr, 44 mins \n
+                            \nDescription:Biochemist Michael Morbius tries to cure himself of a rare blood disease,
+                            but he inadvertently infects himself with a form of vampirism instead."
                         android:textColor="@color/black"
-                        android:textSize="15sp" />
+                        android:textSize="10sp" />
 
                 </LinearLayout>
 
@@ -370,16 +378,18 @@
                         android:layout_height="30dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="5dp"
-                        android:text="Movie Title"
+                        android:text="Avengers: End Game"
                         android:textColor="@color/black"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="137dp"
                         android:layout_height="match_parent"
-                        android:text="Description"
+                        android:text="Runtime: 3 hrs, 2 mins\n
+                            \nDescription:The universe is in ruins. With the help of remaining allies,the Avengers assemble
+                            once more in order to reverse Thanos' actions and restore balance to the universe."
                         android:textColor="@color/black"
-                        android:textSize="15sp" />
+                        android:textSize="10sp" />
 
                 </LinearLayout>
 
@@ -409,7 +419,10 @@
 
                     </Button>
                 </LinearLayout>
+
             </LinearLayout>
+
+
         </LinearLayout>
     </ScrollView>
     </LinearLayout>

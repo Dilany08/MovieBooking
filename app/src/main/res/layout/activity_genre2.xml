@@ -116,11 +116,13 @@
                             android:textSize="20sp" />
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="127dp"
                             android:layout_height="match_parent"
-                            android:text="Description"
+                            android:text="Runtime: 1 hr, 40 mins\n
+                                Description: The long-time friends, who share the same talent manager and had once gone out on a date,
+                                before their respective relationships which later on ended."
                             android:textColor="@color/black"
-                            android:textSize="15sp" />
+                            android:textSize="10sp" />
 
                     </LinearLayout>
 
@@ -176,16 +178,18 @@
                             android:layout_height="30dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="5dp"
-                            android:text="Movie Title"
+                            android:text="Shotgun Wedding"
                             android:textColor="@color/black"
                             android:textSize="20sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:text="Description"
+                            android:text="Runtime: 1 hr, 40 mins\n
+                                \nDescription: A couple's extravagant destination wedding is hijacked by criminals. In the process of saving their families,
+                                they rediscover why they fell in love in the first place."
                             android:textColor="@color/black"
-                            android:textSize="15sp" />
+                            android:textSize="10sp" />
 
                     </LinearLayout>
 
@@ -240,16 +244,18 @@
                             android:layout_height="30dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="5dp"
-                            android:text="Movie Title"
+                            android:text="The Hows of Us"
                             android:textColor="@color/black"
                             android:textSize="20sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:text="Description"
+                            android:text="Runtime: 1 hr, 58 mins\n
+                                \nDescription: A bartender romances a domestic helper
+                                despite the fact that she is moving to Canada."
                             android:textColor="@color/black"
-                            android:textSize="15sp" />
+                            android:textSize="10sp" />
 
                     </LinearLayout>
 
@@ -306,16 +312,18 @@
                             android:layout_height="30dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="5dp"
-                            android:text="Movie Title"
+                            android:text="Hello, Love, Goodbye"
                             android:textColor="@color/black"
                             android:textSize="20sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:text="Description"
+                            android:text="Runtime: 1 hr, 58 mins\n
+                                    \nDescription: A bartender romances a domestic helper despite the
+                                    fact that she is moving to Canada."
                             android:textColor="@color/black"
-                            android:textSize="15sp" />
+                            android:textSize="10sp" />
 
                     </LinearLayout>
 
@@ -370,16 +378,18 @@
                             android:layout_height="30dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="5dp"
-                            android:text="Movie Title"
+                            android:text="Titanic"
                             android:textColor="@color/black"
                             android:textSize="20sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:text="Description"
+                            android:text="Runtime: 3 hrs, 14 mins\n
+                                    \nDescription: A seventeen-year-old aristocrat falls in love with a kind but poor
+                                    artist aboard the luxurious, ill-fated R.M.S. Titanic."
                             android:textColor="@color/black"
-                            android:textSize="15sp" />
+                            android:textSize="10sp" />
 
                     </LinearLayout>
 

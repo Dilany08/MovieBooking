@@ -111,16 +111,18 @@
                             android:layout_height="30dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="5dp"
-                            android:text="Movie Title"
+                            android:text="Annabelle"
                             android:textColor="@color/black"
                             android:textSize="20sp" />
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="138dp"
                             android:layout_height="match_parent"
-                            android:text="Description"
+                            android:text="Runtime: 1 hr, 35 mins\n
+                                \nDescription: A couple begins to experience terrifying supernatural occurrences involving a vintage doll
+                                shortly after their home is invaded by satanic cultists."
                             android:textColor="@color/black"
-                            android:textSize="15sp" />
+                            android:textSize="10sp" />
 
                     </LinearLayout>
 
@@ -178,16 +180,18 @@
                             android:layout_height="30dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="5dp"
-                            android:text="Movie Title"
+                            android:text="The Nun"
                             android:textColor="@color/black"
                             android:textSize="20sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:text="Description"
+                            android:text="Runtime: 1 hr, 36 mins\n
+                                \nDescription: A priest with a haunted past and a novice on the threshold of her final vows are sent by the Vatican to
+                                investigate the death of a young nun in Romania and confront a malevolent force in the form of a demonic nun."
                             android:textColor="@color/black"
-                            android:textSize="15sp" />
+                            android:textSize="10sp" />
 
                     </LinearLayout>
 
@@ -244,16 +248,18 @@
                             android:layout_height="30dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="5dp"
-                            android:text="Movie Title"
+                            android:text="Conjuring 2 "
                             android:textColor="@color/black"
                             android:textSize="20sp" />
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="135dp"
                             android:layout_height="match_parent"
-                            android:text="Description"
+                            android:text="Runtime: 1 hr, 34 mins\n
+                                \nDescription: Ed and Lorraine Warren travel to North London to help a single mother raising
+                                four children alone in a house plagued by a supernatural spirit."
                             android:textColor="@color/black"
-                            android:textSize="15sp" />
+                            android:textSize="10sp" />
 
                     </LinearLayout>
 
@@ -310,16 +316,18 @@
                             android:layout_height="30dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="5dp"
-                            android:text="Movie Title"
+                            android:text="M3gan"
                             android:textColor="@color/black"
                             android:textSize="20sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:text="Description"
+                            android:text="Runtime: 1 hr, 42 mins\n
+                                \nDescription: A robotics engineer at a toy company builds a life-like doll that begins
+                                to take on a life of its own."
                             android:textColor="@color/black"
-                            android:textSize="15sp" />
+                            android:textSize="10sp" />
 
                     </LinearLayout>
 
@@ -374,16 +382,19 @@
                             android:layout_height="30dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="5dp"
-                            android:text="Movie Title"
+                            android:text="DELETER"
                             android:textColor="@color/black"
                             android:textSize="20sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:text="Description"
+                            android:text="Runtime: 1 hr, 34 mins\n
+                                \nDescription:  An online content moderator who deletes a suicide video made by her co-worker.
+                                But the otherwise desensitized woman cannot escape from either her own troubled past or from a
+                                mysterious vengeful presence."
                             android:textColor="@color/black"
-                            android:textSize="15sp" />
+                            android:textSize="10sp" />
 
                     </LinearLayout>
 
@@ -439,14 +450,16 @@
                             android:layout_height="30dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="5dp"
-                            android:text="Movie Title"
+                            android:text="Orphan: First Kill"
                             android:textColor="@color/black"
                             android:textSize="20sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:text="Description"
+                            android:text="Runtime: 1 hr, 39 mins\n
+                                \nDescription: After orchestrating a brilliant escape from an Estonian psychiatric facility, Esther travels
+                                to America by impersonating the missing daughter of a wealthy family."
                             android:textColor="@color/black"
                             android:textSize="15sp" />
 
