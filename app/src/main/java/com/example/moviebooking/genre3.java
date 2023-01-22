@@ -37,5 +37,45 @@ public class genre3 extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        book1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(genre3.this, HorrorMovie1.class);
+                startActivity(i);
+            }
+        });
+
+        book2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(genre3.this, HorrorMovie2.class);
+                startActivity(i);
+            }
+        });
+
+        book3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(genre3.this, HorrorMovie3.class);
+                startActivity(i);
+            }
+        });
+
+        book4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(genre3.this, HorrorMovie4.class);
+                startActivity(i);
+            }
+        });
+
+        book5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(genre3.this, HorrorMovie5.class);
+                startActivity(i);
+            }
+        });
     }
 }

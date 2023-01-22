@@ -40,7 +40,7 @@ public class genre2 extends AppCompatActivity {
         book1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(genre2.this, HorrorMovie1.class);
+                Intent i = new Intent(genre2.this, activity_romanticmovie1.class);
                 startActivity(i);
             }
         });
@@ -48,7 +48,7 @@ public class genre2 extends AppCompatActivity {
         book2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(genre2.this, HorrorMovie2.class);
+                Intent i = new Intent(genre2.this, activity_romanticmovie2.class);
                 startActivity(i);
             }
         });
@@ -56,7 +56,7 @@ public class genre2 extends AppCompatActivity {
         book3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(genre2.this, HorrorMovie3.class);
+                Intent i = new Intent(genre2.this, activity_romanticmovie3.class);
                 startActivity(i);
             }
         });
@@ -64,7 +64,7 @@ public class genre2 extends AppCompatActivity {
         book4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(genre2.this, HorrorMovie4.class);
+                Intent i = new Intent(genre2.this, activity_romanticmovie4.class);
                 startActivity(i);
             }
         });
@@ -72,7 +72,7 @@ public class genre2 extends AppCompatActivity {
         book5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(genre2.this, HorrorMovie5.class);
+                Intent i = new Intent(genre2.this, activity_romanticmovie5.class);
                 startActivity(i);
             }
         });
