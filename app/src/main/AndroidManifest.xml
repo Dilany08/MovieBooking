@@ -54,9 +54,6 @@
             android:name=".activity_romanticmovie1"
             android:exported="false" />
         <activity
-            android:name=".activity_am1"
-            android:exported="false" />
-        <activity
             android:name=".genre3"
             android:exported="false" />
         <activity
