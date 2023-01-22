@@ -75,7 +75,7 @@
                 android:layout_width="390dp"
                 android:layout_height="800dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="250dp"
+                android:layout_marginTop="150dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/custom"
                 android:backgroundTint="#EDB1AEAE"
@@ -134,7 +134,7 @@
                         android:paddingVertical="5dp">
 
                         <TextView
-                            android:id="@+id/tex5"
+                            android:id="@+id/text5"
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
@@ -362,76 +362,6 @@
                         </Button>
                     </LinearLayout>
                 </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="360dp"
-                    android:layout_height="200dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/movie5"
-                        android:layout_width="100dp"
-                        android:layout_height="150dp"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginRight="8dp"
-                        android:src="@drawable/h5" />
-
-                    <LinearLayout
-                        android:id="@+id/layout24"
-                        android:layout_width="150dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/title5"
-                            android:layout_width="wrap_content"
-                            android:layout_height="30dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginBottom="5dp"
-                            android:text="DELETER"
-                            android:textColor="@color/black"
-                            android:textSize="20sp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:text="Runtime: 1 hr, 34 mins\n
-                                \n   An online content moderator who deletes a suicide video made by her co-worker.
-                                But the otherwise desensitized woman cannot escape from either her own troubled past or from a
-                                mysterious vengeful presence."
-                            android:textColor="@color/black"
-                            android:textSize="11sp" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/layout9"
-                        android:layout_width="100dp"
-                        android:layout_height="200dp"
-                        android:orientation="vertical"
-                        android:paddingVertical="5dp">
-
-                        <TextView
-                            android:id="@+id/price5"
-                            android:layout_width="wrap_content"
-                            android:layout_height="50dp"
-                            android:layout_gravity="center"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginBottom="5dp"
-                            android:text="₱ 00.00"
-                            android:textSize="20sp" />
-
-                        <Button
-                            android:id="@+id/book5"
-                            android:layout_width="wrap_content"
-                            android:layout_height="50dp"
-                            android:layout_gravity="center"
-                            android:backgroundTint="#0371C6"
-                            android:text="Book">
-
-                        </Button>
-                    </LinearLayout>
-                </LinearLayout>
                 <LinearLayout
                     android:layout_width="360dp"
                     android:layout_height="200dp"
@@ -452,7 +382,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/titl1"
+                            android:id="@+id/title1"
                             android:layout_width="wrap_content"
                             android:layout_height="30dp"
                             android:layout_marginTop="20dp"
@@ -490,7 +420,7 @@
                             android:textSize="20sp" />
 
                         <Button
-                            android:id="@+id/book6"
+                            android:id="@+id/book5"
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"

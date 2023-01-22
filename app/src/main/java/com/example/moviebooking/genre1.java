@@ -36,5 +36,42 @@ public class genre1 extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        book1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(genre1.this, BookingPage.class);
+
+                startActivity(i);
+            }
+        });
+
+        book2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(genre1.this, BookingPage.class);
+            }
+        });
+
+        book3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(genre1.this, BookingPage.class);
+            }
+        });
+
+        book4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(genre1.this, BookingPage.class);
+            }
+        });
+
+        book5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(genre1.this, BookingPage.class);
+            }
+        });
     }
 }

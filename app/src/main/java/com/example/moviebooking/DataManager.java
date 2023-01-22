@@ -70,5 +70,4 @@ public class DataManager {
         //get a writable database
         db = helper.getWritableDatabase();
     }
-
 }
