@@ -12,6 +12,21 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".HorrorMovie5"
+            android:exported="false" />
+        <activity
+            android:name=".HorrorMovie4"
+            android:exported="false" />
+        <activity
+            android:name=".HorrorMovie3"
+            android:exported="false" />
+        <activity
+            android:name=".HorrorMovie2"
+            android:exported="false" />
+        <activity
+            android:name=".HorrorMovie1"
+            android:exported="false" />
+        <activity
             android:name=".ActionMovie5"
             android:exported="false" />
         <activity
