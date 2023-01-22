@@ -119,10 +119,10 @@
                             android:layout_width="127dp"
                             android:layout_height="match_parent"
                             android:text="Runtime: 1 hr, 40 mins\n
-                                Description: The long-time friends, who share the same talent manager and had once gone out on a date,
+                                \n   The long-time friends, who share the same talent manager and had once gone out on a date,
                                 before their respective relationships which later on ended."
                             android:textColor="@color/black"
-                            android:textSize="10sp" />
+                            android:textSize="11sp" />
 
                     </LinearLayout>
 
@@ -148,7 +148,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
-                            android:text="Book"></Button>
+                            android:backgroundTint="#0371C6"
+                            android:text="Book">
+
+                        </Button>
 
                     </LinearLayout>
                 </LinearLayout>
@@ -186,10 +189,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:text="Runtime: 1 hr, 40 mins\n
-                                \nDescription: A couple's extravagant destination wedding is hijacked by criminals. In the process of saving their families,
-                                they rediscover why they fell in love in the first place."
+                                \n   A couple's extravagant destination wedding is hijacked by criminals. In the process of saving their
+                                 families, they rediscover why they fell in love in the first place."
                             android:textColor="@color/black"
-                            android:textSize="10sp" />
+                            android:textSize="11sp" />
 
                     </LinearLayout>
 
@@ -215,7 +218,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
-                            android:text="Book"></Button>
+                            android:backgroundTint="#0371C6"
+                            android:text="Book">
+
+                        </Button>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -252,10 +258,11 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:text="Runtime: 1 hr, 58 mins\n
-                                \nDescription: A bartender romances a domestic helper
+                                \n   A bartender romances a domestic helper
                                 despite the fact that she is moving to Canada."
                             android:textColor="@color/black"
-                            android:textSize="10sp" />
+                            android:backgroundTint="#0371C6"
+                            android:textSize="11sp" />
 
                     </LinearLayout>
 
@@ -281,6 +288,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
+                            android:backgroundTint="#0371C6"
                             android:text="Book">
 
                         </Button>
@@ -320,10 +328,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:text="Runtime: 1 hr, 58 mins\n
-                                    \nDescription: A bartender romances a domestic helper despite the
+                                    \n     A bartender romances a domestic helper despite the
                                     fact that she is moving to Canada."
                             android:textColor="@color/black"
-                            android:textSize="10sp" />
+                            android:textSize="11sp" />
 
                     </LinearLayout>
 
@@ -349,7 +357,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
-                            android:text="Book"></Button>
+                            android:backgroundTint="#0371C6"
+                            android:text="Book">
+
+                        </Button>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -386,10 +397,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:text="Runtime: 3 hrs, 14 mins\n
-                                    \nDescription: A seventeen-year-old aristocrat falls in love with a kind but poor
+                                    \n    A seventeen-year-old aristocrat falls in love with a kind but poor
                                     artist aboard the luxurious, ill-fated R.M.S. Titanic."
                             android:textColor="@color/black"
-                            android:textSize="10sp" />
+                            android:textSize="11sp" />
 
                     </LinearLayout>
 
@@ -415,6 +426,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
+                            android:backgroundTint="#0371C6"
                             android:text="Book">
 
                         </Button>

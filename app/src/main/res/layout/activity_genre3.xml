@@ -119,10 +119,10 @@
                             android:layout_width="138dp"
                             android:layout_height="match_parent"
                             android:text="Runtime: 1 hr, 35 mins\n
-                                \nDescription: A couple begins to experience terrifying supernatural occurrences involving a vintage doll
+                                \n    A couple begins to experience terrifying supernatural occurrences involving a vintage doll
                                 shortly after their home is invaded by satanic cultists."
                             android:textColor="@color/black"
-                            android:textSize="10sp" />
+                            android:textSize="11sp" />
 
                     </LinearLayout>
 
@@ -147,6 +147,7 @@
                             android:id="@+id/book1"
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
+                            android:backgroundTint="#0371C6"
                             android:layout_gravity="center"
                             android:text="Book">
                         </Button>
@@ -217,6 +218,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
+                            android:backgroundTint="#0371C6"
                             android:text="Book">
 
                         </Button>
@@ -256,10 +258,10 @@
                             android:layout_width="135dp"
                             android:layout_height="match_parent"
                             android:text="Runtime: 1 hr, 34 mins\n
-                                \nDescription: Ed and Lorraine Warren travel to North London to help a single mother raising
+                                \n   Ed and Lorraine Warren travel to North London to help a single mother raising
                                 four children alone in a house plagued by a supernatural spirit."
                             android:textColor="@color/black"
-                            android:textSize="10sp" />
+                            android:textSize="11sp" />
 
                     </LinearLayout>
 
@@ -285,6 +287,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
+                            android:backgroundTint="#0371C6"
                             android:text="Book">
 
                         </Button>
@@ -324,10 +327,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:text="Runtime: 1 hr, 42 mins\n
-                                \nDescription: A robotics engineer at a toy company builds a life-like doll that begins
+                                \n   A robotics engineer at a toy company builds a life-like doll that begins
                                 to take on a life of its own."
                             android:textColor="@color/black"
-                            android:textSize="10sp" />
+                            android:textSize="11sp" />
 
                     </LinearLayout>
 
@@ -353,7 +356,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
-                            android:text="Book"></Button>
+                            android:backgroundTint="#0371C6"
+                            android:text="Book">
+
+                        </Button>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -390,11 +396,11 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:text="Runtime: 1 hr, 34 mins\n
-                                \nDescription:  An online content moderator who deletes a suicide video made by her co-worker.
+                                \n   An online content moderator who deletes a suicide video made by her co-worker.
                                 But the otherwise desensitized woman cannot escape from either her own troubled past or from a
                                 mysterious vengeful presence."
                             android:textColor="@color/black"
-                            android:textSize="10sp" />
+                            android:textSize="11sp" />
 
                     </LinearLayout>
 
@@ -420,6 +426,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
+                            android:backgroundTint="#0371C6"
                             android:text="Book">
 
                         </Button>
@@ -458,10 +465,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:text="Runtime: 1 hr, 39 mins\n
-                                \nDescription: After orchestrating a brilliant escape from an Estonian psychiatric facility, Esther travels
+                                \n     After orchestrating a brilliant escape from an Estonian psychiatric facility, Esther travels
                                 to America by impersonating the missing daughter of a wealthy family."
                             android:textColor="@color/black"
-                            android:textSize="15sp" />
+                            android:textSize="11sp" />
 
                     </LinearLayout>
 
@@ -487,7 +494,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
-                            android:text="Book"></Button>
+                            android:backgroundTint="#0371C6"
+                            android:text="Book">
+
+                        </Button>
 
                     </LinearLayout>
                 </LinearLayout>

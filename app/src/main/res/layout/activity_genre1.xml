@@ -73,7 +73,7 @@
         <LinearLayout
             android:id="@+id/linearLayout4"
             android:layout_width="395dp"
-            android:layout_height="800dp"
+            android:layout_height="810dp"
             android:layout_gravity="center"
             android:layout_marginTop="150dp"
             android:layout_marginBottom="10dp"
@@ -118,11 +118,11 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Runtime: 3 hrs, 12 mins\n
-                            Description: Once a familiar threat returns to finish what was previously
+                        android:text="Runtime: 3 hrs, 12 mins \n
+                        \n       Once a familiar threat returns to finish what was previously
                             started, Jake must work with Neytiri and the army of the Na'vi race to protect their planet."
                         android:textColor="@color/black"
-                        android:textSize="10sp" />
+                        android:textSize="11sp" />
 
                 </LinearLayout>
 
@@ -148,7 +148,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:text="Book"></Button>
+                        android:backgroundTint="#0371C6"
+                        android:text="Book">
+
+                    </Button>
 
                 </LinearLayout>
             </LinearLayout>
@@ -186,10 +189,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Runtime: 1 hr, 48 mins \n
-                            \nDescription: A pilot finds himself caught in a war zone after he's
-                            forced to land his commercial aircraft during a terrible storm."
+                            \n   A pilot finds himself caught in a war zone after
+                             he's forced to land his commercial aircraft during a terrible storm."
                         android:textColor="@color/black"
-                        android:textSize="10sp" />
+                        android:textSize="11sp" />
 
                 </LinearLayout>
 
@@ -215,7 +218,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:text="Book"></Button>
+                        android:backgroundTint="#0371C6"
+                        android:text="Book">
+
+                    </Button>
                 </LinearLayout>
             </LinearLayout>
 
@@ -252,10 +258,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Runtime: 2 hrs, 23 mins \n
-                           \n Description: Professor Albus Dumbledore must assist Newt Scamander and his partners
-                            as Grindelwald begins to lead an army to eliminate all Muggles."
+                           \n   Professor Albus Dumbledore must assist Newt Scamander and his partners as
+                           Grindelwald begins to lead an army to eliminate all Muggles."
                         android:textColor="@color/black"
-                        android:textSize="10sp" />
+                        android:textSize="11sp" />
 
                 </LinearLayout>
 
@@ -281,6 +287,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
+                        android:backgroundTint="#0371C6"
                         android:text="Book">
 
                     </Button>
@@ -320,10 +327,10 @@
                         android:layout_width="137dp"
                         android:layout_height="match_parent"
                         android:text="Runtime: 1 hr, 44 mins \n
-                            \nDescription:Biochemist Michael Morbius tries to cure himself of a rare blood disease,
-                            but he inadvertently infects himself with a form of vampirism instead."
+                            \n     Biochemist Michael Morbius tries to cure himself of a rare blood
+                             disease,but he inadvertently infects himself with a form of vampirism instead."
                         android:textColor="@color/black"
-                        android:textSize="10sp" />
+                        android:textSize="11sp" />
 
                 </LinearLayout>
 
@@ -349,7 +356,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:text="Book"></Button>
+                        android:backgroundTint="#0371C6"
+                        android:text="Book">
+
+                    </Button>
                 </LinearLayout>
             </LinearLayout>
 
@@ -386,10 +396,10 @@
                         android:layout_width="137dp"
                         android:layout_height="match_parent"
                         android:text="Runtime: 3 hrs, 2 mins\n
-                            \nDescription:The universe is in ruins. With the help of remaining allies,the Avengers assemble
+                            \n   The universe is in ruins. With the help of remaining allies,the Avengers assemble
                             once more in order to reverse Thanos' actions and restore balance to the universe."
                         android:textColor="@color/black"
-                        android:textSize="10sp" />
+                        android:textSize="11sp" />
 
                 </LinearLayout>
 
@@ -415,6 +425,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
+                        android:backgroundTint="#0371C6"
                         android:text="Book">
 
                     </Button>
