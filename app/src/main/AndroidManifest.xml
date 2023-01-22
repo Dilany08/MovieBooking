@@ -12,6 +12,18 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".ActionMovie5"
+            android:exported="false" />
+        <activity
+            android:name=".ActionMovie4"
+            android:exported="false" />
+        <activity
+            android:name=".ActionMovie3"
+            android:exported="false" />
+        <activity
+            android:name=".ActionMovie2"
+            android:exported="false" />
+        <activity
             android:name=".genre3"
             android:exported="false" />
         <activity
@@ -24,7 +36,7 @@
             android:name=".TransactionPage"
             android:exported="false" />
         <activity
-            android:name=".Avatar"
+            android:name=".ActionMovie1"
             android:exported="false" />
         <activity
             android:name=".genre1"

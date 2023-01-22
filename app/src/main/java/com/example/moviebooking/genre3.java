@@ -23,7 +23,6 @@ public class genre3 extends AppCompatActivity {
         Button book3 = findViewById(R.id.book3);
         Button book4 = findViewById(R.id.book4);
         Button book5 = findViewById(R.id.book5);
-        Button book6 = findViewById(R.id.book6);
 
 
         back.setClickable(true);

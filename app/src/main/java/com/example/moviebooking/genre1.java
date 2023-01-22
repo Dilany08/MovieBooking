@@ -40,7 +40,7 @@ public class genre1 extends AppCompatActivity {
         book1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(genre1.this, Avatar.class);
+                Intent i = new Intent(genre1.this, ActionMovie1.class);
 
                 startActivity(i);
             }
@@ -49,28 +49,28 @@ public class genre1 extends AppCompatActivity {
         book2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(genre1.this, Avatar.class);
+                Intent i = new Intent(genre1.this, ActionMovie1.class);
             }
         });
 
         book3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(genre1.this, Avatar.class);
+                Intent i = new Intent(genre1.this, ActionMovie1.class);
             }
         });
 
         book4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(genre1.this, Avatar.class);
+                Intent i = new Intent(genre1.this, ActionMovie1.class);
             }
         });
 
         book5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(genre1.this, Avatar.class);
+                Intent i = new Intent(genre1.this, ActionMovie1.class);
             }
         });
     }
