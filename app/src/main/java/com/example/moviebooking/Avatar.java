@@ -8,12 +8,12 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-public class BookingPage extends AppCompatActivity {
+public class Avatar extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_booking_page);
+        setContentView(R.layout.activity_avatar);
 
         ImageView back = findViewById(R.id.btnBack);
 
@@ -23,8 +23,8 @@ public class BookingPage extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(BookingPage.this, genre1.class);
-                Toast.makeText(BookingPage.this, "Returning...", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(Avatar.this, genre1.class);
+                Toast.makeText(Avatar.this, "Returning...", Toast.LENGTH_SHORT).show();
 
                 startActivity(i);
             }

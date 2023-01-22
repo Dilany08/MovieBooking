@@ -24,7 +24,7 @@
             android:name=".TransactionPage"
             android:exported="false" />
         <activity
-            android:name=".BookingPage"
+            android:name=".Avatar"
             android:exported="false" />
         <activity
             android:name=".genre1"
