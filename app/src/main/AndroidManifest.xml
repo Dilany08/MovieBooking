@@ -39,6 +39,24 @@
             android:name=".ActionMovie2"
             android:exported="false" />
         <activity
+            android:name=".activity_romanticmovie5"
+            android:exported="false" />
+        <activity
+            android:name=".activity_romanticmovie4"
+            android:exported="false" />
+        <activity
+            android:name=".activity_romanticmovie3"
+            android:exported="false" />
+        <activity
+            android:name=".activity_romanticmovie2"
+            android:exported="false" />
+        <activity
+            android:name=".activity_romanticmovie1"
+            android:exported="false" />
+        <activity
+            android:name=".activity_am1"
+            android:exported="false" />
+        <activity
             android:name=".genre3"
             android:exported="false" />
         <activity
