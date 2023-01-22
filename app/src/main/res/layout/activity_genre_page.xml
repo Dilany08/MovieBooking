@@ -55,7 +55,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="8dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/custom" />
+                    android:src="@drawable/actbg" />
             </LinearLayout>
                 <LinearLayout
                     android:layout_width="350dp"
@@ -95,7 +95,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="8dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/custom" />
+                    android:src="@drawable/rombg" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="350dp"
@@ -134,7 +134,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="8dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/custom" />
+                    android:src="@drawable/horbg" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="350dp"
