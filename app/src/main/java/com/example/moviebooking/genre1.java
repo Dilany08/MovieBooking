@@ -49,28 +49,32 @@ public class genre1 extends AppCompatActivity {
         book2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(genre1.this, ActionMovie1.class);
+                Intent i = new Intent(genre1.this, ActionMovie2.class);
+                startActivity(i);
             }
         });
 
         book3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(genre1.this, ActionMovie1.class);
+                Intent i = new Intent(genre1.this, ActionMovie3.class);
+                startActivity(i);
             }
         });
 
         book4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(genre1.this, ActionMovie1.class);
+                Intent i = new Intent(genre1.this, ActionMovie4.class);
+                startActivity(i);
             }
         });
 
         book5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(genre1.this, ActionMovie1.class);
+                Intent i = new Intent(genre1.this, ActionMovie5.class);
+                startActivity(i);
             }
         });
     }

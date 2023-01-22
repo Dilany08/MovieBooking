@@ -140,7 +140,7 @@
                             android:layout_gravity="center"
                             android:layout_marginTop="10dp"
                             android:layout_marginBottom="5dp"
-                            android:text="₱ 00.00"
+                            android:text="₱ 450.00"
                             android:textSize="20sp" />
 
                         <Button
@@ -210,7 +210,7 @@
                             android:layout_gravity="center"
                             android:layout_marginTop="10dp"
                             android:layout_marginBottom="5dp"
-                            android:text="₱ 00.00"
+                            android:text="₱ 450.00"
                             android:textSize="20sp" />
 
                         <Button
@@ -279,7 +279,7 @@
                             android:layout_gravity="center"
                             android:layout_marginTop="10dp"
                             android:layout_marginBottom="5dp"
-                            android:text="₱ 00.00"
+                            android:text="₱ 450.00"
                             android:textSize="20sp" />
 
                         <Button
@@ -348,7 +348,7 @@
                             android:layout_gravity="center"
                             android:layout_marginTop="10dp"
                             android:layout_marginBottom="5dp"
-                            android:text="₱ 00.00"
+                            android:text="₱ 550.00"
                             android:textSize="20sp" />
 
                         <Button
@@ -373,7 +373,7 @@
                         android:layout_height="150dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginRight="8dp"
-                        android:src="@drawable/h6" />
+                        android:src="@drawable/h5" />
 
                     <LinearLayout
                         android:id="@+id/layout3"
@@ -416,7 +416,7 @@
                             android:layout_gravity="center"
                             android:layout_marginTop="10dp"
                             android:layout_marginBottom="5dp"
-                            android:text="₱ 00.00"
+                            android:text="₱ 550.00"
                             android:textSize="20sp" />
 
                         <Button
