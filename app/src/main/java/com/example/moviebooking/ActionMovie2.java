@@ -15,23 +15,20 @@ public class ActionMovie2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_action_movie2);
-        TextView title,time1,time2,time3;
-        ImageView timebtn1,timebtn2,timebtn3;
-        title = findViewById(R.id.title);
-        time1 = findViewById(R.id.time1);
-        time2 = findViewById(R.id.time2);
-        time3 = findViewById(R.id.time3);
-        timebtn1 = findViewById(R.id.timeBtn1);
-        timebtn2 = findViewById(R.id.timeBtn2);
-        timebtn3 = findViewById(R.id.timeBtn3);
+        TextView title = findViewById(R.id.title);
+        TextView time1 = findViewById(R.id.time1);
+        TextView time2 = findViewById(R.id.time2);
+        TextView time3 = findViewById(R.id.time3);
+        ImageView back = findViewById(R.id.btnBack);
+        ImageView timebtn1 = findViewById(R.id.timeBtn1);
+        ImageView timebtn2 = findViewById(R.id.timeBtn2);
+        ImageView timebtn3 = findViewById(R.id.timeBtn3);
 
         timebtn1.setClickable(true);
         timebtn2.setClickable(true);
         timebtn3.setClickable(true);
-
-        ImageView back = findViewById(R.id.btnBack);
-
         back.setClickable(true);
+        timebtn1.bringToFront();
 
         //back button
         back.setOnClickListener(new View.OnClickListener() {
@@ -43,5 +40,41 @@ public class ActionMovie2 extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        timebtn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(ActionMovie2.this,TransactionPage.class);
+                i.putExtra("Title", "Title:" + title.getText().toString() );
+                i.putExtra("Time", time1.getText().toString());
+                i.putExtra("Amount", "0.00");
+                startActivity(i);
+            }
+        });
+
+        timebtn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(ActionMovie2.this,TransactionPage.class);
+                i.putExtra("Title", "Title:" + title.getText().toString() );
+                i.putExtra("Time", time2.getText().toString());
+                i.putExtra("Amount", "0.00");
+                startActivity(i);
+
+
+            }
+        });
+
+        timebtn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(ActionMovie2.this,TransactionPage.class);
+                i.putExtra("Title", "Title:" + title.getText().toString() );
+                i.putExtra("Time", time3.getText().toString());
+                i.putExtra("Amount", "0.00");
+                startActivity(i);
+            }
+        });
+
     }
 }
