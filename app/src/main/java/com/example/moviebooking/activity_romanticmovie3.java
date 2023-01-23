@@ -71,8 +71,8 @@ public class activity_romanticmovie3 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(activity_romanticmovie3.this,TransactionPage.class);
                 i.putExtra("Title", "Title:" + title.getText().toString() );
-                i.putExtra("Time", time3.getText().toString());
-                i.putExtra("Amount", "0.00");
+                i.putExtra("Time", "Time: " + time1.getText().toString());
+                i.putExtra("Amount", "Amount: " + "550.00");
                 startActivity(i);
             }
         });

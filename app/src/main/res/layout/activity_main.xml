@@ -10,7 +10,7 @@
         android:id="@+id/layout1"
         android:layout_width="414dp"
         android:layout_height="906dp"
-        android:background="@drawable/mainbg1"
+        android:background="@drawable/bg1"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,7 +39,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="210dp"
                 android:fontFamily="cursive"
-                android:text="WOOKIDEM \n    Booking"
+                android:text="Movie Booking"
                 android:textColor="#F1EEEE"
                 android:textSize="50sp" />
 
