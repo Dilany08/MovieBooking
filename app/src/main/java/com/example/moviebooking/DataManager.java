@@ -1,8 +1,10 @@
 package com.example.moviebooking;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 public class DataManager {
 
@@ -45,6 +47,8 @@ public class DataManager {
                     + TABLE_INFO + "( "
                     + TABLE_ROW_ID
                     + "integer primary key autoincrement not null,"
+                    + TABLE_ROW_NAME +
+                    "text not null,"
                     + TABLE_ROW_PHONENUM
                     + "int not null,"
                     + TABLE_ROW_EMAIL
@@ -70,4 +74,60 @@ public class DataManager {
         //get a writable database
         db = helper.getWritableDatabase();
     }
+
+public void insert(String ID, String name,String movieTitle,String EMAIL, String phoneNum, String time,String amount)
+{
+
+    //inserting data in database
+    String query = "INSERT INTO " + TABLE_INFO + " (" +
+            TABLE_ROW_ID + ", " +
+            TABLE_ROW_NAME + ", " +
+            TABLE_ROW_PHONENUM + ", " +
+            TABLE_ROW_EMAIL + ", " +
+            TABLE_ROW_TITLE+ ", " +
+            TABLE_ROW_TIME + ", " +
+            TABLE_ROW_AMOUNT + ") " +
+            "VALUES (" +
+            "'" + ID + "'" + ", " +
+            "'" + name + "'" + ", " +
+            "'" + phoneNum + "'" + ", " +
+            "'" + EMAIL + "'" + ", " +
+            "'" + movieTitle + "'" + ", " +
+            "'" + time + "'" + ", " +
+            "'" + amount + "'" +
+            ")";
+    Log.i("insert() = ", query);
+    db.execSQL(query);
+
 }
+
+public String showData(Cursor c){
+        Appdata myData = new Appdata();
+        while (c.moveToNext()) {
+        Log.i(c.getString(1),c.getString(2));
+        myData.setData(c.getString(0), c.getString(1), c.getString(2), c.getString(3), c.getString(4), c.getString(5), c.getString(6));
+
+        }
+return myData.getData();
+}
+
+    public Cursor search(String ID) {
+
+        String query = "SELECT " +
+                TABLE_ROW_ID + ", " +
+                TABLE_ROW_NAME + ", " +
+                TABLE_ROW_PHONENUM + ", " +
+                TABLE_ROW_EMAIL + ", " +
+                TABLE_ROW_TITLE + ", " +
+                TABLE_ROW_TIME + ", " +
+                TABLE_ROW_AMOUNT + " from " +
+                TABLE_INFO + " WHERE " +
+                TABLE_ROW_ID + " = '" + ID + "';";
+        Log.i("search() = ", query);
+        Cursor c = db.rawQuery(query, null);
+        return c;
+
+    }
+}
+
+

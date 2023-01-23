@@ -84,6 +84,7 @@
              android:orientation="horizontal">
 
              <TextView
+                 android:id="@+id/title1"
                  android:layout_width="wrap_content"
                  android:layout_height="match_parent"
                  android:text="Title"
@@ -93,6 +94,7 @@
                  android:layout_marginLeft="20dp">
              </TextView>
              <TextView
+                 android:id="@+id/time1"
                  android:layout_width="wrap_content"
                  android:layout_height="match_parent"
                  android:layout_marginLeft="200dp"
@@ -108,6 +110,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/title2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Title"
@@ -117,6 +120,7 @@
                 android:layout_marginLeft="20dp">
             </TextView>
             <TextView
+                android:id="@+id/time2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="200dp"
@@ -132,6 +136,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/title3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Title"
@@ -141,6 +146,7 @@
                 android:layout_marginLeft="20dp">
             </TextView>
             <TextView
+                android:id="@+id/time3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="200dp"
@@ -156,6 +162,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/title4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Title"
@@ -165,6 +172,7 @@
                 android:layout_marginLeft="20dp">
             </TextView>
             <TextView
+                android:id="@+id/time4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="200dp"
@@ -180,6 +188,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/title5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Title"
@@ -189,6 +198,7 @@
                 android:layout_marginLeft="20dp">
             </TextView>
             <TextView
+                android:id="@+id/time5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="200dp"
@@ -197,13 +207,28 @@
                 android:textColor="@color/black">
             </TextView>
         </LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    >
         <TextView
+            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:text="Total Amount: "
             android:textColor="@color/black"
-            android:textSize="25sp">
-        </TextView>
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="0.00"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+</LinearLayout>
     </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

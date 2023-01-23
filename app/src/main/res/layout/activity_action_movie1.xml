@@ -79,6 +79,7 @@
                 android:orientation="vertical"
                 android:layout_marginTop="20dp">
             <TextView
+                android:id="@+id/title"
                 android:layout_width="wrap_content"
                 android:layout_height="55dp"
                 android:text="AVATAR:THE WAY OF WATER"
@@ -131,6 +132,7 @@
                 android:src="@drawable/arrow"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="40dp"
+                android:clickable="true"
                 app:tint="#0E7BCF">
             </ImageView>
         </LinearLayout>
