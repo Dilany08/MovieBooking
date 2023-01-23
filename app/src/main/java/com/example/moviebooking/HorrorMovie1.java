@@ -47,8 +47,8 @@ public class HorrorMovie1 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(HorrorMovie1.this,TransactionPage.class);
                 i.putExtra("Title", "Title:" + title.getText().toString() );
-                i.putExtra("Time", time1.getText().toString());
-                i.putExtra("Amount", "0.00");
+                i.putExtra("Time", "Time: " + time1.getText().toString());
+                i.putExtra("Amount", "Amount: " + "450.00");
                 startActivity(i);
             }
         });
@@ -58,8 +58,8 @@ public class HorrorMovie1 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(HorrorMovie1.this,TransactionPage.class);
                 i.putExtra("Title", "Title:" + title.getText().toString() );
-                i.putExtra("Time", time2.getText().toString());
-                i.putExtra("Amount", "0.00");
+                i.putExtra("Time", "Time: " + time1.getText().toString());
+                i.putExtra("Amount", "Amount: " + "450.00");
                 startActivity(i);
 
 
@@ -71,8 +71,8 @@ public class HorrorMovie1 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(HorrorMovie1.this,TransactionPage.class);
                 i.putExtra("Title", "Title:" + title.getText().toString() );
-                i.putExtra("Time", time3.getText().toString());
-                i.putExtra("Amount", "0.00");
+                i.putExtra("Time", "Time: " + time1.getText().toString());
+                i.putExtra("Amount", "Amount: " + "450.00");
                 startActivity(i);
             }
         });
