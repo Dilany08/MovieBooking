@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Avatar">
+    tools:context=".activity_romanticmovie3">
 
     <LinearLayout
         android:id="@+id/layout1"
@@ -80,7 +80,7 @@
                     android:layout_marginTop="20dp">
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="55dp"
+                        android:layout_height="40dp"
                         android:text="The Hows of Us"
                         android:textColor="@color/black"
                         android:textSize="20sp"
@@ -88,10 +88,9 @@
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text=" A young couple dreams of growing old together as they as
-                        they deal with the struggles of being in a long-term relationship."
+                        android:text=" Runtime: 1 hr, 57 mins\n \n A young couple dreams of growing old together as they as they deal with the struggles of being in a long-term relationship."
                         android:textColor="@color/black"
-                        android:textSize="16sp">
+                        android:textSize="18sp">
                     </TextView>
                 </LinearLayout>
             </LinearLayout>
@@ -117,7 +116,7 @@
                     android:id="@+id/time1"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="08:10 - 09:48am "
+                    android:text="9:10 - 10:48am "
                     android:textSize="25dp"
                     android:layout_marginTop="20dp"
                     android:textColor="@color/black">
@@ -141,7 +140,7 @@
                     android:id="@+id/time2"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="01:00 - 02:58pm "
+                    android:text="01:10 - 02:47pm "
                     android:textSize="25dp"
                     android:layout_marginTop="20dp"
                     android:textColor="@color/black">
@@ -178,7 +177,7 @@
                     android:layout_height="70dp"
                     android:src="@drawable/arrow"
                     android:layout_marginTop="10dp"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="55dp"
                     app:tint="#0E7BCF">
                 </ImageView>
             </LinearLayout>

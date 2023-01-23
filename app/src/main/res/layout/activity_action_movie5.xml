@@ -84,7 +84,6 @@
                         android:text="Avengers: End Game"
                         android:textColor="@color/black"
                         android:textSize="20sp"
-                        android:gravity="center"
                         android:layout_marginTop="10dp"/>
                     <TextView
                         android:layout_width="180dp"
