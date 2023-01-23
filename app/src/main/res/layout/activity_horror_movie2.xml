@@ -89,7 +89,7 @@
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
                         android:text="Runtime: 1 hr, 36 mins\n
-                                \nDescription: A priest with a haunted past and a novice on the threshold of her final vows are sent by the Vatican to
+                                \n A priest with a haunted past and a novice on the threshold of her final vows are sent by the Vatican to
                                 investigate the death of a young nun in Romania and confront a malevolent force in the form of a demonic nun."
                         android:textColor="@color/black"
                         android:textSize="15sp">
