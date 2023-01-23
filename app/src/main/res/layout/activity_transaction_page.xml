@@ -154,6 +154,7 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/book"
             android:layout_width="170dp"
             android:layout_height="80dp"
             android:layout_gravity="center"
