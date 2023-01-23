@@ -10,7 +10,7 @@
         android:id="@+id/layout1"
         android:layout_width="413dp"
         android:layout_height="893dp"
-        android:background="@color/black"
+        android:background="@drawable/bg1"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -189,8 +189,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:text="Runtime: 1 hr, 36 mins\n
-                                \nDescription: A priest with a haunted past and a novice on the threshold of her final vows are sent by the Vatican to
-                                investigate the death of a young nun in Romania and confront a malevolent force in the form of a demonic nun."
+                                \n  A priest with a haunted past and a novice on the threshold of her final vows are sent by the Vatican to investigate the death
+                                 of a young nun in Romania and confront a malevolent force in the form of a demonic nun."
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -258,7 +258,7 @@
                             android:layout_width="135dp"
                             android:layout_height="match_parent"
                             android:text="Runtime: 1 hr, 34 mins\n
-                                \n   Ed and Lorraine Warren travel to North London to help a single mother raising
+                                \n    Ed and Lorraine Warren travel to North London to help a single mother raising
                                 four children alone in a house plagued by a supernatural spirit."
                             android:textColor="@color/black"
                             android:textSize="11sp" />
