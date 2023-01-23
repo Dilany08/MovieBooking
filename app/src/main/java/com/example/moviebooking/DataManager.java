@@ -126,6 +126,18 @@ return myData.getData();
         return c;
 
     }
+
+    public Cursor newest() {
+
+     String query = "SELECT *" +
+             " from " +
+             TABLE_INFO +
+             " WHERE " + TABLE_ROW_ID + " = " +
+             "(" + " SELECT " +"MAX( " + TABLE_ROW_ID + ")" +  " from " + TABLE_INFO + "); ";
+    Log.i("newest", query);
+    Cursor c = db.rawQuery(query, null);
+    return c;
+    }
 }
 
 

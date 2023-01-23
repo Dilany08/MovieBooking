@@ -16,12 +16,12 @@ public class TransactionPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transaction_page);
         Intent i = getIntent();
-        TextView title,time,amount;
+        TextView title,time,amount,id;
         title = findViewById(R.id.title);
         time =findViewById(R.id.time);
         amount = findViewById(R.id.amount);
         EditText name,phone,email;
-
+        id = findViewById(R.id.id);
         name = findViewById(R.id.name);
         phone = findViewById(R.id.phone);
         email = findViewById(R.id.email);
@@ -37,11 +37,14 @@ public class TransactionPage extends AppCompatActivity {
         time.setText(b);
         amount.setText(c);
         DataManager dm = new DataManager(this);
+
         book.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                id.setText(dm.newest().toString());
+                Intent i = new Intent(TransactionPage.this,BillingPage.class);
                 dm.insert(name.getText().toString(),title.getText().toString(),email.getText().toString(),phone.getText().toString(),time.getText().toString(),amount.getText().toString());
+                startActivity(i);
             }
         });
 
