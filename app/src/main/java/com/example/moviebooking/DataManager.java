@@ -46,19 +46,19 @@ public class DataManager {
             String newTableQueryString = "create table "
                     + TABLE_INFO + "( "
                     + TABLE_ROW_ID
-                    + "integer primary key autoincrement not null,"
+                    + " integer primary key autoincrement not null,"
                     + TABLE_ROW_NAME +
-                    "text not null,"
+                    " text not null,"
                     + TABLE_ROW_PHONENUM
-                    + "int not null,"
+                    + " text not null,"
                     + TABLE_ROW_EMAIL
-                    + "text not null,"
+                    + " text not null,"
                     + TABLE_ROW_TITLE
-                    + "text not null,"
+                    + " text not null,"
                     + TABLE_ROW_TIME
-                    + "int not null,"
+                    + " text not null,"
                     + TABLE_ROW_AMOUNT
-                    + "int not null);";
+                    + " text not null);";
             db.execSQL(newTableQueryString);
         }
 
@@ -75,12 +75,11 @@ public class DataManager {
         db = helper.getWritableDatabase();
     }
 
-public void insert(String ID, String name,String movieTitle,String EMAIL, String phoneNum, String time,String amount)
+public void insert( String name,String movieTitle,String EMAIL, String phoneNum, String time,String amount)
 {
 
     //inserting data in database
     String query = "INSERT INTO " + TABLE_INFO + " (" +
-            TABLE_ROW_ID + ", " +
             TABLE_ROW_NAME + ", " +
             TABLE_ROW_PHONENUM + ", " +
             TABLE_ROW_EMAIL + ", " +
@@ -88,7 +87,6 @@ public void insert(String ID, String name,String movieTitle,String EMAIL, String
             TABLE_ROW_TIME + ", " +
             TABLE_ROW_AMOUNT + ") " +
             "VALUES (" +
-            "'" + ID + "'" + ", " +
             "'" + name + "'" + ", " +
             "'" + phoneNum + "'" + ", " +
             "'" + EMAIL + "'" + ", " +
