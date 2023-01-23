@@ -10,7 +10,7 @@
         android:id="@+id/layout1"
         android:layout_width="414dp"
         android:layout_height="906dp"
-        android:background="@drawable/bg1"
+        android:background="@drawable/mainbg1"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +24,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/custom"
-            android:backgroundTint="#8AB1AEAE"
+            android:backgroundTint="#00B1AEAE"
             android:orientation="vertical"
             android:padding="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -34,20 +34,24 @@
 
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="50sp"
+                android:layout_width="273dp"
+                android:layout_height="146dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="240dp"
-                android:text="Title"
+                android:layout_marginTop="210dp"
+                android:fontFamily="cursive"
+                android:text="WOOKIDEM \n    Booking"
                 android:textColor="#F1EEEE"
-                android:textSize="40sp" />
+                android:textSize="50sp" />
+
             <Button
                 android:id="@+id/start"
                 android:layout_width="170dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="90dp"
-                android:text="Book Now!" />
+                android:layout_marginTop="120dp"
+                android:fontFamily="serif"
+                android:text="Book Now!"
+                android:textSize="22dp" />
 
         </LinearLayout>
     </LinearLayout>
