@@ -156,6 +156,12 @@ return myData.getData();
         db.execSQL(query);
     }
 
+    public Cursor searchAll() {
+        Cursor c = db.rawQuery("SELECT *" + " from " +
+                TABLE_INFO, null);
+        return c;
+    }
+
 }
 
 
