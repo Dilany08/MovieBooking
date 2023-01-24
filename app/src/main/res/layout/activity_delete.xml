@@ -83,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:text="Cancel Ticket"
                 android:textSize="19dp"
-                android:backgroundTint="#CE0371C6"
+                android:backgroundTint="#AD0371C6"
                 android:layout_gravity="center"
                 tools:layout_editor_absoluteX="26dp"
                 tools:layout_editor_absoluteY="87dp" />

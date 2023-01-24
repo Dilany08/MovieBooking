@@ -28,6 +28,7 @@ public class BillingPage extends AppCompatActivity {
         id.setText(i.getStringExtra("showBill"));
         tvName.setText(dm.showData(dm.search(id.getText().toString())));
 
+        //back to homepage
         btnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

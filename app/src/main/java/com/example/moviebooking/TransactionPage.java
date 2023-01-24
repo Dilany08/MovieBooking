@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class TransactionPage extends AppCompatActivity {
 
@@ -15,6 +17,7 @@ public class TransactionPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transaction_page);
+
         Intent i = getIntent();
         TextView title,time,amount,id;
         title = findViewById(R.id.title);
@@ -27,6 +30,9 @@ public class TransactionPage extends AppCompatActivity {
         email = findViewById(R.id.email);
 
         Button book = findViewById(R.id.book);
+
+        ImageView back = findViewById(R.id.btnBack);
+        back.setClickable(true);
 
         String a,b,c;
         a = i.getStringExtra("Title");
@@ -54,7 +60,15 @@ public class TransactionPage extends AppCompatActivity {
                 }
             }
         });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(TransactionPage.this, GenrePage.class);
+                Toast.makeText(TransactionPage.this, "Returning...", Toast.LENGTH_SHORT).show();
 
+                startActivity(i);
+            }
+        });
 
 
 

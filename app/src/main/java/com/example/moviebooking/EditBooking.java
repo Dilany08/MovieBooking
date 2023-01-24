@@ -67,6 +67,8 @@ public class EditBooking extends AppCompatActivity {
                 Toast.makeText(EditBooking.this,  editId.getText().toString() + "has been updated!", Toast.LENGTH_SHORT).show();
             }
         });
+
+        //back button
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

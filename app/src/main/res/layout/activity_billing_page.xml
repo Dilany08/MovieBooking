@@ -34,27 +34,10 @@
             app:layout_constraintTop_toTopOf="@+id/layout1">
 
 
-
-
-        <LinearLayout
-            android:layout_marginLeft="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="20dp"/>
-
-        <TextView
-            android:id="@+id/tvName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:text="TvName"/>
-
             <LinearLayout
                 android:layout_width="165dp"
                 android:layout_height="65dp"
-                android:layout_marginTop="700dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginLeft="200dp"
                 android:orientation="horizontal">
 
@@ -74,6 +57,23 @@
                     app:tint="#0371C6" />
 
             </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="TvName"/>
+
+
 
     </LinearLayout>
         <TextView

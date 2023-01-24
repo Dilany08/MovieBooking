@@ -179,7 +179,7 @@ they rediscover why they fell in love in the first place."
                     android:layout_height="70dp"
                     android:src="@drawable/arrow"
                     android:layout_marginTop="10dp"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="55dp"
                     app:tint="#0E7BCF">
                 </ImageView>
             </LinearLayout>

@@ -16,12 +16,15 @@ public class searchTix extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_tix);
+
         ImageView back = findViewById(R.id.btnBack);
         EditText searchET = findViewById(R.id.searchET);
         Button btn = findViewById(R.id.searchbtn);
         TextView output = findViewById(R.id.result);
+
         DataManager dm = new DataManager(this);
         Intent i = getIntent();
+
         back.setClickable(true);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +37,7 @@ public class searchTix extends AppCompatActivity {
                 }
             }
         });
+        //back button
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
