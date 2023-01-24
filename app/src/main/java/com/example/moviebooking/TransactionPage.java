@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class TransactionPage extends AppCompatActivity {
 
@@ -17,15 +16,16 @@ public class TransactionPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transaction_page);
         Intent i = getIntent();
-        TextView title,time,amount;
+        TextView title,time,amount,id;
         title = findViewById(R.id.title);
         time =findViewById(R.id.time);
         amount = findViewById(R.id.amount);
         EditText name,phone,email;
+        id = findViewById(R.id.id);
         name = findViewById(R.id.name);
         phone = findViewById(R.id.phone);
         email = findViewById(R.id.email);
-        
+
         Button book = findViewById(R.id.book);
 
         String a,b,c;
@@ -36,7 +36,6 @@ public class TransactionPage extends AppCompatActivity {
         title.setText(a);
         time.setText(b);
         amount.setText(c);
-
         DataManager dm = new DataManager(this);
 
         book.setOnClickListener(new View.OnClickListener() {
@@ -48,5 +47,9 @@ public class TransactionPage extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+
+
+
     }
 }

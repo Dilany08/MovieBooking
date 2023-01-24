@@ -102,14 +102,10 @@ public void insert( String name,String movieTitle,String EMAIL, String phoneNum,
 public String showData(Cursor c){
         Appdata myData = new Appdata();
         while (c.moveToNext()) {
-        Log.i(c.getString(1),
-                c.getString(2));
-        myData.setData(c.getString(0),
-                c.getString(1),
-                c.getString(2),
-                c.getString(3),
-                c.getString(4),
-                c.getString(5),
+        Log.i(c.getString(1),c.getString(2));
+        myData.setData(c.getString(0), c.getString(1),
+                c.getString(2), c.getString(3),
+                c.getString(4), c.getString(5),
                 c.getString(6));
 
         }
@@ -133,12 +129,7 @@ return myData.getData();
         return c;
 
     }
-    public Cursor selectAll() {
-        Cursor c = db.rawQuery("SELECT *"+ " from " + TABLE_INFO, null);
-        return c;
-    }
 
-
-    }
+}
 
 
