@@ -165,27 +165,28 @@ public class DataManager {
     public Appdata editData(Cursor c) {
         Appdata myData = new Appdata();
         while (c.moveToNext()) {
-            myData.setName(c.getString(0));
-            myData.setPhone(c.getString(1));
-            myData.setEmail(c.getString(2));
-            myData.setTitle(c.getString(3));
-            myData.setTime(c.getString(4));
-            myData.setAmount(c.getString(5));
+            myData.setId(c.getString(0));
+            myData.setName(c.getString(1));
+            myData.setPhone(c.getString(2));
+            myData.setEmail(c.getString(3));
+            myData.setTitle(c.getString(4));
+            myData.setTime(c.getString(5));
+            myData.setAmount(c.getString(6))
+            ;
         }
         return myData;
     }
 
-    public void update(String name, String movieTitle, String EMAIL, String phoneNum, String time, String amount, String id) {
+    public void update(String id, String name, String phoneNum, String EMAIL, String movieTitle, String time, String amount) {
         String query = "UPDATE " + TABLE_INFO +
-            TABLE_ROW_NAME + " = " +"'" + name + "'" +
-            ", " + "SET " +
-            TABLE_ROW_NAME + " = " + "'" + name + "'" + ", " +
+              " SET " +
+            TABLE_ROW_ID + " = " + "'" + id + "'" + ", " +
+            TABLE_ROW_NAME + " = " + "'" + name  + "'" + ", " +
             TABLE_ROW_PHONENUM + " = " + "'" + phoneNum  + "'" + ", " +
             TABLE_ROW_EMAIL + " = " + "'" + EMAIL  + "'" + ", " +
             TABLE_ROW_TITLE + " = " + "'" + movieTitle  + "'" + ", " +
-            TABLE_ROW_TIME + " = " + "'" + time  + "'" + ", " +
-            TABLE_ROW_AMOUNT + " = " + "'" + amount + "'" + ", " +
-            TABLE_ROW_ID + " = " + "'" + id + "'" +
+            TABLE_ROW_TIME + " = " + "'" + time + "'" + ", " +
+            TABLE_ROW_AMOUNT + " = " + "'" + amount + "'" +
                 "WHERE " +
                 TABLE_ROW_ID + " = " + "'" + id + "'";
         Log.i("update() = ", query);
