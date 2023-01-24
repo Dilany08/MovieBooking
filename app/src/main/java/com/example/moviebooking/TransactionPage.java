@@ -41,9 +41,9 @@ public class TransactionPage extends AppCompatActivity {
         book.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                id.setText(dm.newest().toString());
                 Intent i = new Intent(TransactionPage.this,BillingPage.class);
                 dm.insert(name.getText().toString(),title.getText().toString(),email.getText().toString(),phone.getText().toString(),time.getText().toString(),amount.getText().toString());
+                i.putExtra("showBill", name.getText().toString());
                 startActivity(i);
             }
         });

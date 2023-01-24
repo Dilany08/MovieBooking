@@ -18,7 +18,7 @@ public class BillingPage extends AppCompatActivity {
         tvName = findViewById(R.id.tvName);
         Intent i = getIntent();
         DataManager dm = new DataManager(this);
-        id.setText(dm.newest().toString());
+        id.setText(i.getStringExtra("showBill"));
         tvName.setText(dm.showData(dm.search(id.getText().toString())));
 
 
