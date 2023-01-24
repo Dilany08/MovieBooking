@@ -22,10 +22,10 @@ public class EditBooking extends AppCompatActivity {
         Button btnEdit = findViewById(R.id.btnEdit);
         EditText editId = findViewById(R.id.etId);
         Button btnSearch = findViewById(R.id.btnSearch);
-        EditText etName = findViewById(R.id.etName);
+        TextView etName = findViewById(R.id.etName);
         EditText etNum = findViewById(R.id.etNum);
         EditText etEmail = findViewById(R.id.etEmail);
-        TextView title = findViewById(R.id.title);
+        EditText title = findViewById(R.id.title);
         TextView time = findViewById(R.id.time);
         TextView amount = findViewById(R.id.amount);
         TextView id = findViewById(R.id.id);
@@ -36,7 +36,7 @@ public class EditBooking extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Appdata editData;
-                editData = dm.editData(dm.search(editId.getText().toString()));
+                editData = dm.editData(dm.search2(editId.getText().toString()));
                 etName.setText(editData.getName().toString());
                 etNum.setText(editData.getPhone().toString());
                 etEmail.setText(editData.getEmail().toString());

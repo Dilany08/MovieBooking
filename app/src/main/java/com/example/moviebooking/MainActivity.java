@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, ViewAllPage.class);
-                i.putExtra("viewAll",dm.showData(dm.searchAll()).toString());
+                i.putExtra("viewAll",dm.showData(dm.sort()).toString());
                 Toast.makeText(MainActivity.this, "Loading Data...",Toast.LENGTH_SHORT).show();
                 startActivity(i);
             }

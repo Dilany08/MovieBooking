@@ -186,18 +186,18 @@ public class DataManager {
             TABLE_ROW_TIME + " = " + "'" + time  + "'" + ", " +
             TABLE_ROW_AMOUNT + " = " + "'" + amount + "'" + ", " +
             TABLE_ROW_ID + " = " + "'" + id + "'" +
-                "WHERE " + TABLE_ROW_NAME + " = " + "'" + name  + "'" + ", " +
-             TABLE_ROW_NAME + " = " +"'" + name  + "'" +
-             TABLE_ROW_PHONENUM  + " = " +"'" + phoneNum  + "'" +
-             TABLE_ROW_EMAIL  + " = " +"'" + EMAIL  + "'" +
-             TABLE_ROW_TITLE  + " = " +"'" + movieTitle  + "'" +
-             TABLE_ROW_TIME  + " = " +"'" + time  + "'" +
-             TABLE_ROW_AMOUNT  + " = " +"'" + amount  + "'" +
+                "WHERE " +
                 TABLE_ROW_ID + " = " + "'" + id + "'";
         Log.i("update() = ", query);
         db.execSQL(query);
 
 
+    }
+
+    public Cursor sort() {
+        Cursor c = db.rawQuery("SELECT *" + " from " +
+                TABLE_INFO + " ORDER BY " + TABLE_ROW_NAME + " COLLATE NOCASE ", null);
+        return c;
     }
 }
 
