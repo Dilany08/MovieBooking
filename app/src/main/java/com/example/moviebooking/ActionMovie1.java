@@ -57,7 +57,7 @@ public class ActionMovie1 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(ActionMovie1.this,TransactionPage.class);
                 i.putExtra("Title", "Title:" + title.getText().toString() );
-                i.putExtra("Time", "Time: " + time1.getText().toString());
+                i.putExtra("Time", "Time: " + time2.getText().toString());
                 i.putExtra("Amount", "Amount: " + "650.00");
                 startActivity(i);
 
@@ -70,7 +70,7 @@ public class ActionMovie1 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(ActionMovie1.this,TransactionPage.class);
                 i.putExtra("Title", "Title:" + title.getText().toString() );
-                i.putExtra("Time", "Time: " + time1.getText().toString());
+                i.putExtra("Time", "Time: " + time3.getText().toString());
                 i.putExtra("Amount", "Amount: " + "650.00");
                 startActivity(i);
             }

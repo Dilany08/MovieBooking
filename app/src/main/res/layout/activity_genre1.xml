@@ -401,7 +401,6 @@
                             once more in order to reverse Thanos' actions and restore balance to the universe."
                         android:textColor="@color/black"
                         android:textSize="11sp" />
-
                 </LinearLayout>
 
                 <LinearLayout

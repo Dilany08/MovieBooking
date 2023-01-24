@@ -25,7 +25,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/custom"
-        android:backgroundTint="#EDB1AEAE"
+        android:backgroundTint="#F3B1AEAE"
         android:orientation="vertical"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,6 +84,7 @@
             android:layout_height="wrap_content"
             android:text="TextView"
             android:textSize="20sp"
+            android:layout_marginBottom="200dp"
             android:textColor="@color/black"/>
         </LinearLayout>
         </ScrollView>

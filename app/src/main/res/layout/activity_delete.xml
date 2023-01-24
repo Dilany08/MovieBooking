@@ -109,7 +109,7 @@
                 android:id="@+id/result1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Find your ticket here VVVVVVVVVVV"
+                android:text="Find your ticket here:"
                 android:textSize="21dp"
                 tools:layout_editor_absoluteX="50dp"/>
             <TextView
@@ -118,6 +118,7 @@
                 android:layout_height="wrap_content"
                 android:text="TextView"
                 android:textSize="21dp"
+                android:layout_marginBottom="200dp"
                 tools:layout_editor_absoluteX="50dp"/>
             </LinearLayout>
             </ScrollView>

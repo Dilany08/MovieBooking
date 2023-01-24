@@ -25,7 +25,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/custom"
-        android:backgroundTint="#EDB1AEAE"
+        android:backgroundTint="#F2B1AEAE"
         android:orientation="vertical"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,7 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:hint="Enter ID"
+            android:hint="Enter the digits inside the () of your ticket"
             android:textSize="20sp"/>
         <Button
             android:id="@+id/btnSearch"
