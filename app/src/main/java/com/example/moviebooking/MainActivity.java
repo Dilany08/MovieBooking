@@ -18,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
         Button search = findViewById(R.id.search);
         Button start = findViewById(R.id.start);
         Button viewAll = findViewById(R.id.viewAll);
-        Button search = findViewById(R.id.search);
+        Button cancel = findViewById(R.id.cancel);
+
 
         final DataManager dm = new DataManager(this);
 
@@ -52,6 +53,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, searchTix.class);
+                startActivity(i);
+            }
+        });
+
+        cancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, delete.class);
+                i.putExtra("viewAll",dm.showData(dm.searchAll()).toString());
                 startActivity(i);
             }
         });
