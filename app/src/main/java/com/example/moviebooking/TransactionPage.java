@@ -41,10 +41,17 @@ public class TransactionPage extends AppCompatActivity {
         book.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                if(name.getText().toString().isEmpty() && email.getText().toString().isEmpty() && phone.getText().toString().isEmpty()){
+                    name.setError("This field is required!");
+                    email.setError("This field is required!");
+                    phone.setError("This field is required!");
+                }else{
                 Intent i = new Intent(TransactionPage.this,BillingPage.class);
                 dm.insert(name.getText().toString(),title.getText().toString(),email.getText().toString(),phone.getText().toString(),time.getText().toString(),amount.getText().toString());
                 i.putExtra("showBill", name.getText().toString());
                 startActivity(i);
+                }
             }
         });
 

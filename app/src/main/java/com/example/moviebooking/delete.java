@@ -26,11 +26,17 @@ public class delete extends AppCompatActivity {
         DataManager dm = new DataManager(this);
         Intent i = getIntent();
         data.setText(i.getStringExtra("viewAll"));
+
         delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                dm.delete(delET.getText().toString());
-                Toast.makeText(delete.this, delET.getText().toString()+ " has been cancelled", Toast.LENGTH_SHORT).show();
+                if (delET.getText().toString().isEmpty()) {
+                    delET.setError("This is a required field!");
+                } else {
+
+                    dm.delete(delET.getText().toString());
+                    Toast.makeText(delete.this, delET.getText().toString() + " has been cancelled", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
