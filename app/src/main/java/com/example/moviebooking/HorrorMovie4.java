@@ -24,7 +24,7 @@ public class HorrorMovie4 extends AppCompatActivity {
         ImageView timebtn1 = findViewById(R.id.timeBtn1);
         ImageView timebtn2 = findViewById(R.id.timeBtn2);
         ImageView timebtn3 = findViewById(R.id.timeBtn3);
-
+//
         timebtn1.setClickable(true);
         timebtn2.setClickable(true);
         timebtn3.setClickable(true);
