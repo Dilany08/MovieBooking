@@ -26,7 +26,7 @@ public class Appdata {
     }
     public void setData(String id,String name, String phone, String email, String title, String time, String amount){
         StringBuffer i = new StringBuffer(this.data);
-        i.append("Name: " + name  + "\nPhone Number:  " + phone + "\nE-mail: " + email + "\nTitle:" + title + "     Time: " + time + "\n\n Amount: " + amount + "\n\nTicket Number :" + id + "-769" + id +"15672" + id + "10"  );
+        i.append("Name: " + name  + "\nPhone Number:  " + phone + "\nE-mail: " + email + "\n" + title + "\n " + time + "\n\n" + amount + "\n\nTicket Number :" + id + "-769" + id +"15672" + id + "10" + "\n" );
         this.data = i.toString();
     }
 

@@ -129,6 +129,12 @@ return myData.getData();
         return c;
 
     }
+    public Cursor searchAll() {
+        Cursor c = db.rawQuery("SELECT *" + " from " +
+                TABLE_INFO, null);
+        return c;
+    }
+
 
 }
 

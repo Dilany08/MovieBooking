@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,11 +16,24 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button start = findViewById(R.id.start);
+        Button viewAll = findViewById(R.id.viewAll);
+
+        final DataManager dm = new DataManager(this);
 
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this,GenrePage.class);
+                startActivity(i);
+            }
+        });
+
+        viewAll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, ViewAllPage.class);
+                i.putExtra("viewAll",dm.showData(dm.searchAll()).toString());
+                Toast.makeText(MainActivity.this, "Loading Data...",Toast.LENGTH_SHORT).show();
                 startActivity(i);
             }
         });
