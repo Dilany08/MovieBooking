@@ -67,6 +67,7 @@ public class DataManager {
 
         }
     }
+
     //Creating the constructor of dm
     public DataManager(Context context) {
         //create instance of internal
@@ -75,42 +76,41 @@ public class DataManager {
         db = helper.getWritableDatabase();
     }
 
-public void insert( String name,String movieTitle,String EMAIL, String phoneNum, String time,String amount)
-{
+    public void insert(String name, String movieTitle, String EMAIL, String phoneNum, String time, String amount) {
 
-    //inserting data in database
-    String query = "INSERT INTO " + TABLE_INFO + " (" +
-            TABLE_ROW_NAME + ", " +
-            TABLE_ROW_PHONENUM + ", " +
-            TABLE_ROW_EMAIL + ", " +
-            TABLE_ROW_TITLE+ ", " +
-            TABLE_ROW_TIME + ", " +
-            TABLE_ROW_AMOUNT + ") " +
-            "VALUES (" +
-            "'" + name + "'" + ", " +
-            "'" + phoneNum + "'" + ", " +
-            "'" + EMAIL + "'" + ", " +
-            "'" + movieTitle + "'" + ", " +
-            "'" + time + "'" + ", " +
-            "'" + amount + "'" +
-            ")";
-    Log.i("insert() = ", query);
-    db.execSQL(query);
+        //inserting data in database
+        String query = "INSERT INTO " + TABLE_INFO + " (" +
+                TABLE_ROW_NAME + ", " +
+                TABLE_ROW_PHONENUM + ", " +
+                TABLE_ROW_EMAIL + ", " +
+                TABLE_ROW_TITLE + ", " +
+                TABLE_ROW_TIME + ", " +
+                TABLE_ROW_AMOUNT + ") " +
+                "VALUES (" +
+                "'" + name + "'" + ", " +
+                "'" + phoneNum + "'" + ", " +
+                "'" + EMAIL + "'" + ", " +
+                "'" + movieTitle + "'" + ", " +
+                "'" + time + "'" + ", " +
+                "'" + amount + "'" +
+                ")";
+        Log.i("insert() = ", query);
+        db.execSQL(query);
 
-}
+    }
 
-public String showData(Cursor c){
+    public String showData(Cursor c) {
         Appdata myData = new Appdata();
         while (c.moveToNext()) {
-        Log.i(c.getString(1),c.getString(2));
-        myData.setData(c.getString(0), c.getString(1),
-                c.getString(2), c.getString(3),
-                c.getString(4), c.getString(5),
-                c.getString(6));
+            Log.i(c.getString(1), c.getString(2));
+            myData.setData(c.getString(0), c.getString(1),
+                    c.getString(2), c.getString(3),
+                    c.getString(4), c.getString(5),
+                    c.getString(6));
 
         }
-return myData.getData();
-}
+        return myData.getData();
+    }
 
     public Cursor search(String name) {
 
@@ -162,6 +162,43 @@ return myData.getData();
         return c;
     }
 
+    public Appdata editData(Cursor c) {
+        Appdata myData = new Appdata();
+        while (c.moveToNext()) {
+            myData.setName(c.getString(0));
+            myData.setPhone(c.getString(1));
+            myData.setEmail(c.getString(2));
+            myData.setTitle(c.getString(3));
+            myData.setTime(c.getString(4));
+            myData.setAmount(c.getString(5));
+        }
+        return myData;
+    }
+
+    public void update(String name, String movieTitle, String EMAIL, String phoneNum, String time, String amount, String id) {
+        String query = "UPDATE " + TABLE_INFO +
+            TABLE_ROW_NAME + " = " +"'" + name + "'" +
+            ", " + "SET " +
+            TABLE_ROW_NAME + " = " + "'" + name + "'" + ", " +
+            TABLE_ROW_PHONENUM + " = " + "'" + phoneNum  + "'" + ", " +
+            TABLE_ROW_EMAIL + " = " + "'" + EMAIL  + "'" + ", " +
+            TABLE_ROW_TITLE + " = " + "'" + movieTitle  + "'" + ", " +
+            TABLE_ROW_TIME + " = " + "'" + time  + "'" + ", " +
+            TABLE_ROW_AMOUNT + " = " + "'" + amount + "'" + ", " +
+            TABLE_ROW_ID + " = " + "'" + id + "'" +
+                "WHERE " + TABLE_ROW_NAME + " = " + "'" + name  + "'" + ", " +
+             TABLE_ROW_NAME + " = " +"'" + name  + "'" +
+             TABLE_ROW_PHONENUM  + " = " +"'" + phoneNum  + "'" +
+             TABLE_ROW_EMAIL  + " = " +"'" + EMAIL  + "'" +
+             TABLE_ROW_TITLE  + " = " +"'" + movieTitle  + "'" +
+             TABLE_ROW_TIME  + " = " +"'" + time  + "'" +
+             TABLE_ROW_AMOUNT  + " = " +"'" + amount  + "'" +
+                TABLE_ROW_ID + " = " + "'" + id + "'";
+        Log.i("update() = ", query);
+        db.execSQL(query);
+
+
+    }
 }
 
 

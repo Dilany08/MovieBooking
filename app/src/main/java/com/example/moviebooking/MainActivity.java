@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Button search = findViewById(R.id.search);
         Button start = findViewById(R.id.start);
         Button viewAll = findViewById(R.id.viewAll);
 
@@ -37,6 +38,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, searchTix.class);
+                startActivity(i);
+            }
+        });
     }
 }

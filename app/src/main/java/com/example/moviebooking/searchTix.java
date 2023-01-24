@@ -2,6 +2,7 @@ package com.example.moviebooking;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,15 +15,16 @@ public class searchTix extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_tix);
+
         EditText searchET = findViewById(R.id.searchET);
         Button btn = findViewById(R.id.searchbtn);
         TextView output = findViewById(R.id.result);
         DataManager dm = new DataManager(this);
-
+        Intent i = getIntent();
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(searchET.getText().toString() == null){
+                if(searchET.getText().toString().isEmpty()){
                     searchET.setError("This field must not be empty!");
                 }
                 else {
