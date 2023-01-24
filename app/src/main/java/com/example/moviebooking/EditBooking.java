@@ -38,15 +38,20 @@ public class EditBooking extends AppCompatActivity {
         btnSearch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Appdata editData;
-                editData = dm.editData(dm.search2(editId.getText().toString()));
-                etName.setText(editData.getName().toString());
-                etNum.setText(editData.getPhone().toString());
-                etEmail.setText(editData.getEmail().toString());
-                title.setText(editData.getTitle().toString());
-                time.setText(editData.getTime().toString());
-                amount.setText(editData.getAmount().toString());
-                id.setText(editData.getId().toString());
+
+                if(editId.getText().toString().isEmpty()){
+                    editId.setError("This is a required field!");
+                }else {
+                    Appdata editData;
+                    editData = dm.editData(dm.search2(editId.getText().toString()));
+                    etName.setText(editData.getName().toString());
+                    etNum.setText(editData.getPhone().toString());
+                    etEmail.setText(editData.getEmail().toString());
+                    title.setText(editData.getTitle().toString());
+                    time.setText(editData.getTime().toString());
+                    amount.setText(editData.getAmount().toString());
+                    id.setText(editData.getId().toString());
+                }
             }
         });
         btnEdit.setOnClickListener(new View.OnClickListener() {
