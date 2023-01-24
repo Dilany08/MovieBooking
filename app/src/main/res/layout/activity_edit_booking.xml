@@ -77,49 +77,57 @@
             android:text="Search"/>
 
         <TextView
-            android:id="@+id/etName"
+            android:id="@+id/id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp" />
 
         <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+        <EditText
             android:id="@+id/etNum"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"/>
+
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
 
-        <EditText
-            android:id="@+id/title"
+        <TextView
+            android:id="@+id/etTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:textColor="@color/black"/>
 
         <TextView
-            android:id="@+id/time"
+            android:id="@+id/etTime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:textColor="@color/black"/>
 
         <TextView
-            android:id="@+id/amount"
+            android:id="@+id/etAmount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:textColor="@color/black"/>
-
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
         <TextView
-            android:id="@+id/id"
+            android:id="@+id/etAmount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
         <Button
             android:id="@+id/btnEdit"
             android:layout_width="100dp"

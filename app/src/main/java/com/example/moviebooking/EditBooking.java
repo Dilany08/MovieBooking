@@ -26,9 +26,9 @@ public class EditBooking extends AppCompatActivity {
         TextView etName = findViewById(R.id.etName);
         EditText etNum = findViewById(R.id.etNum);
         EditText etEmail = findViewById(R.id.etEmail);
-        EditText title = findViewById(R.id.title);
-        TextView time = findViewById(R.id.time);
-        TextView amount = findViewById(R.id.amount);
+        TextView title = findViewById(R.id.etTitle);
+        TextView time = findViewById(R.id.etTime);
+        TextView amount = findViewById(R.id.etAmount);
         TextView id = findViewById(R.id.id);
         ImageView back = findViewById(R.id.btnBack);
         back.setClickable(true);
@@ -44,13 +44,15 @@ public class EditBooking extends AppCompatActivity {
                 }else {
                     Appdata editData;
                     editData = dm.editData(dm.search2(editId.getText().toString()));
+                    id.setText(editData.getId().toString());
                     etName.setText(editData.getName().toString());
                     etNum.setText(editData.getPhone().toString());
                     etEmail.setText(editData.getEmail().toString());
                     title.setText(editData.getTitle().toString());
                     time.setText(editData.getTime().toString());
                     amount.setText(editData.getAmount().toString());
-                    id.setText(editData.getId().toString());
+
+
                 }
             }
         });
