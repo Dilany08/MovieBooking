@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Button start = findViewById(R.id.start);
         Button viewAll = findViewById(R.id.viewAll);
         Button cancel = findViewById(R.id.cancel);
+        Button update = findViewById(R.id.update);
 
 
         final DataManager dm = new DataManager(this);
@@ -62,6 +63,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, delete.class);
                 i.putExtra("viewAll",dm.showData(dm.searchAll()).toString());
+                startActivity(i);
+            }
+        });
+
+        update.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, EditBooking.class);
                 startActivity(i);
             }
         });
