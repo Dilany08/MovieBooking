@@ -130,6 +130,32 @@ return myData.getData();
 
     }
 
+    public Cursor search2(String ID) {
+
+        String query = "SELECT " +
+                TABLE_ROW_ID + ", " +
+                TABLE_ROW_NAME + ", " +
+                TABLE_ROW_PHONENUM + ", " +
+                TABLE_ROW_EMAIL + ", " +
+                TABLE_ROW_TITLE + ", " +
+                TABLE_ROW_TIME + ", " +
+                TABLE_ROW_AMOUNT + " from " +
+                TABLE_INFO + " WHERE " +
+                TABLE_ROW_ID + " = '" + ID + "';";
+        Log.i("search() = ", query);
+        Cursor c = db.rawQuery(query, null);
+        return c;
+
+    }
+
+    public void delete(String _id) {
+        String query = "DELETE FROM " + TABLE_INFO +
+                " WHERE " + TABLE_ROW_ID +
+                " = '" + _id + "';";
+        Log.i("delete() = ", query);
+        db.execSQL(query);
+    }
+
 }
 
 

@@ -15,6 +15,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button start = findViewById(R.id.start);
+        Button search,cancel,viewall;
+
+        search = findViewById(R.id.search);
+        cancel = findViewById(R.id.cancel);
+        viewall = findViewById(R.id.viewall);
+
 
         start.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,5 +30,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, searchTix.class);
+                startActivity(i);
+
+            }
+        });
+
+        cancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, delete.class);
+                startActivity(i);
+            }
+        });
     }
 }
