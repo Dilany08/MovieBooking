@@ -103,13 +103,16 @@ public String showData(Cursor c){
         Appdata myData = new Appdata();
         while (c.moveToNext()) {
         Log.i(c.getString(1),c.getString(2));
-        myData.setData(c.getString(0), c.getString(1), c.getString(2), c.getString(3), c.getString(4), c.getString(5), c.getString(6));
+        myData.setData(c.getString(0), c.getString(1),
+                c.getString(2), c.getString(3),
+                c.getString(4), c.getString(5),
+                c.getString(6));
 
         }
 return myData.getData();
 }
 
-    public Cursor search(String ID) {
+    public Cursor search(String name) {
 
         String query = "SELECT " +
                 TABLE_ROW_ID + ", " +
@@ -120,24 +123,13 @@ return myData.getData();
                 TABLE_ROW_TIME + ", " +
                 TABLE_ROW_AMOUNT + " from " +
                 TABLE_INFO + " WHERE " +
-                TABLE_ROW_ID + " = '" + ID + "';";
+                TABLE_ROW_NAME + " = '" + name + "';";
         Log.i("search() = ", query);
         Cursor c = db.rawQuery(query, null);
         return c;
 
     }
 
-    public Cursor newest() {
-
-     String query = "SELECT *" +
-             " from " +
-             TABLE_INFO +
-             " WHERE " + TABLE_ROW_ID + " = " +
-             "(" + " SELECT " +"MAX( " + TABLE_ROW_ID + ")" +  " from " + TABLE_INFO + "); ";
-    Log.i("newest", query);
-    Cursor c = db.rawQuery(query, null);
-    return c;
-    }
 }
 
 
