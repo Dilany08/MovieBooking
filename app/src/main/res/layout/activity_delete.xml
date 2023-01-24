@@ -54,16 +54,16 @@
                 android:layout_marginTop="10dp"/>
 
             <EditText
-                android:id="@+id/searchET"
+                android:id="@+id/delET"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="19dp"
-                android:hint="Enter the digits before the (-) of your ticket"
+                android:hint="Enter the digits inside the () of your ticket"
                 tools:layout_editor_absoluteX="28dp"
                 tools:layout_editor_absoluteY="29dp" />
 
             <Button
-                android:id="@+id/searchbtn"
+                android:id="@+id/deletebtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Cancel Ticket"
