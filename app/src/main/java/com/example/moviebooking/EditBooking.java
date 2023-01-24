@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,6 +30,8 @@ public class EditBooking extends AppCompatActivity {
         TextView time = findViewById(R.id.time);
         TextView amount = findViewById(R.id.amount);
         TextView id = findViewById(R.id.id);
+        ImageView back = findViewById(R.id.btnBack);
+        back.setClickable(true);
 
         final DataManager dm = new DataManager(this);
 
@@ -59,7 +62,15 @@ public class EditBooking extends AppCompatActivity {
                 Toast.makeText(EditBooking.this,  editId.getText().toString() + "has been updated!", Toast.LENGTH_SHORT).show();
             }
         });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(EditBooking.this, MainActivity.class);
+                Toast.makeText(EditBooking.this, "Returning...", Toast.LENGTH_SHORT).show();
 
+                startActivity(i);
+            }
+        });
 
 
     }
