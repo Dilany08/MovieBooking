@@ -66,7 +66,7 @@ public class EditBooking extends AppCompatActivity {
                         title.getText().toString(),
                         time.getText().toString(),
                         amount.getText().toString());
-                Toast.makeText(EditBooking.this,  editId.getText().toString() + "has been updated!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(EditBooking.this,  editId.getText().toString() + " has been updated!", Toast.LENGTH_SHORT).show();
             }
         });
 
