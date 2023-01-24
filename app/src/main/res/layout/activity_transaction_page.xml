@@ -10,7 +10,7 @@
         android:id="@+id/layout1"
         android:layout_width="413dp"
         android:layout_height="893dp"
-        android:background="@color/black"
+        android:background="@drawable/bg1"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -124,7 +124,7 @@
 
         <LinearLayout
             android:layout_width="350dp"
-            android:layout_height="300dp"
+            android:layout_height="200dp"
             android:orientation="vertical">
 
             <TextView
@@ -158,9 +158,10 @@
             android:id="@+id/book"
             android:layout_width="170dp"
             android:layout_height="80dp"
-            android:layout_gravity="center"
+            android:layout_gravity="left"
             android:layout_marginTop="20dp"
             android:text="Book" />
+
     </LinearLayout>
     </LinearLayout>
 

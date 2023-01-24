@@ -102,14 +102,21 @@ public void insert( String name,String movieTitle,String EMAIL, String phoneNum,
 public String showData(Cursor c){
         Appdata myData = new Appdata();
         while (c.moveToNext()) {
-        Log.i(c.getString(1),c.getString(2));
-        myData.setData(c.getString(0), c.getString(1), c.getString(2), c.getString(3), c.getString(4), c.getString(5), c.getString(6));
+        Log.i(c.getString(1),
+                c.getString(2));
+        myData.setData(c.getString(0),
+                c.getString(1),
+                c.getString(2),
+                c.getString(3),
+                c.getString(4),
+                c.getString(5),
+                c.getString(6));
 
         }
 return myData.getData();
 }
 
-    public Cursor search(String ID) {
+    public Cursor search(String name) {
 
         String query = "SELECT " +
                 TABLE_ROW_ID + ", " +
@@ -120,12 +127,18 @@ return myData.getData();
                 TABLE_ROW_TIME + ", " +
                 TABLE_ROW_AMOUNT + " from " +
                 TABLE_INFO + " WHERE " +
-                TABLE_ROW_ID + " = '" + ID + "';";
+                TABLE_ROW_NAME + " = '" + name + "';";
         Log.i("search() = ", query);
         Cursor c = db.rawQuery(query, null);
         return c;
 
     }
-}
+    public Cursor selectAll() {
+        Cursor c = db.rawQuery("SELECT *"+ " from " + TABLE_INFO, null);
+        return c;
+    }
+
+
+    }
 
 
